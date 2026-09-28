@@ -10,11 +10,13 @@ class PathResult:
     output: int
     tags: Tuple[str, ...]
     provenance: str
+    orientation: str = "unspecified"
+    ordering: str = "unspecified"
 
 class RphachEngine:
-    """Compare numeric, combinatorial and structural candidate paths.
+    """Provenance-aware engine for 288/72 and related combinatorial paths.
 
-    Equal numbers are deliberately not treated as equal structures.
+    Numeric equality is not treated as structural equality.
     """
 
     def __init__(self, crystal_space_groups: int = 230):
@@ -30,22 +32,47 @@ class RphachEngine:
             "rphach": 288,
             "cycle": 360,
             "crystal_space_groups": 230,
+            "c126": comb(9, 4),
         }
 
     @staticmethod
     def rphach_by_four_ab() -> PathResult:
         return PathResult(
             "C1", "4*72", ("AB", "SAG", "MA", "BAN"), 288,
-            ("numeric_match", "four_blocks"),
-            "four-name/filling representation",
+            ("numeric_match", "four_blocks", "documented"),
+            "Etz Chaim / Chabadpedia: four YHVH fillings/levels",
+            orientation="source-specific",
+            ordering="four_name_blocks",
         )
 
     @staticmethod
     def rphach_by_words_letters() -> PathResult:
         return PathResult(
             "C2", "72+216", ("72_words", "216_letters"), 288,
-            ("numeric_match", "word_letter_decomposition"),
-            "72 words + 216 letters representation",
+            ("numeric_match", "word_letter_decomposition", "documented"),
+            "Documented alternative decomposition; keep source provenance separate",
+            orientation="unspecified",
+            ordering="words_then_letters",
+        )
+
+    @staticmethod
+    def rphach_by_four_yhvhs() -> PathResult:
+        return PathResult(
+            "C3", "4*72", ("AB", "SAG", "MA", "BAN"), 288,
+            ("structural_match_candidate", "four_yhvhs", "documented"),
+            "Etz Chaim Sha'ar XVIII: distinct contribution rules for each name",
+            orientation="source-specific",
+            ordering="AB,SAG,MA,BAN",
+        )
+
+    @staticmethod
+    def orientation_variant() -> PathResult:
+        return PathResult(
+            "C4", "4*72", ("three_panim", "one_achor"), 288,
+            ("orientation_sensitive", "documented"),
+            "Etz Chaim Sha'ar XVIII, chapter IV: first three aspects are panim; fourth is achor",
+            orientation="panim-achor",
+            ordering="three_plus_one",
         )
 
     @staticmethod
@@ -63,20 +90,37 @@ class RphachEngine:
             "gcd_with_modulus": {str(v): gcd(v, modulus) for v in values},
         }
 
+    @staticmethod
+    def classify(a: PathResult, b: PathResult) -> str:
+        if a.output != b.output:
+            return "NUMERIC_DIFFERENT"
+        if a.operation != b.operation:
+            return "NUMERIC_MATCH_SOURCE_DISTINCT"
+        if a.orientation != b.orientation or a.ordering != b.ordering:
+            return "SAME_COUNT_DIFFERENT_CONFIGURATION"
+        return "SAME_CONFIGURATION_CANDIDATE"
+
     def compare(self) -> Dict[str, Any]:
-        c1 = self.rphach_by_four_ab()
-        c2 = self.rphach_by_words_letters()
+        paths = [
+            self.rphach_by_four_ab(),
+            self.rphach_by_words_letters(),
+            self.rphach_by_four_yhvhs(),
+            self.orientation_variant(),
+        ]
+        comparisons = []
+        for i, a in enumerate(paths):
+            for b in paths[i + 1:]:
+                comparisons.append({
+                    "a": a.config_id,
+                    "b": b.config_id,
+                    "classification": self.classify(a, b),
+                })
         return {
-            "paths": [asdict(c1), asdict(c2)],
-            "same_output": c1.output == c2.output,
-            "same_operation": c1.operation == c2.operation,
-            "interpretation": (
-                "NUMERIC_MATCH_SOURCE_DISTINCT"
-                if c1.output == c2.output and c1.operation != c2.operation
-                else "UNRESOLVED"
-            ),
+            "paths": [asdict(p) for p in paths],
+            "comparisons": comparisons,
             "pair_spaces": self.pair_spaces(),
-            "cycle_360_profile": self.modular_profile([72, 231, 230, 288], 360),
+            "cycle_360_profile": self.modular_profile([72, 126, 230, 231, 288], 360),
+            "rule": "Do not infer historical identity from numerical equality alone.",
         }
 
 if __name__ == "__main__":
