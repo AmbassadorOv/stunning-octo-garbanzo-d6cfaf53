@@ -1,0 +1,10 @@
+config_id,input_space,operation,output,ordering,orientation,internal_rule,provenance_status
+C1,four YHVH fillings,4*72,288,four_name_blocks,source-specific,"AB=72; SAG contribution=72-equivalent; MA contribution=72-equivalent; BN contribution=72-equivalent",documented
+C2,72 words + 216 letters,72+216,288,words_then_letters,unspecified,"72 words and 216 letters",documented
+C3,four YHVH aspects,4*72,288,"AB,SAG,MA,BN",source-specific,"different internal counting rules; aggregate 288",documented
+C4,four AB aspects,4*72,288,three_plus_one,panim-achor,"three panim + one achor in cited Etz Chaim passage",documented
+L1,22 letters,C(22,2),231,unordered,none,"all unordered distinct pairs",mathematical
+L2,22 letters,22*21,462,ordered,none,"all ordered distinct pairs",mathematical
+K1,9-element set,C(9,4),126,unordered,none,"mathematical identity only",source_pending
+T1,cyclic year,360,360,cyclic,none,"time/cycle axis",independent
+G1,crystallographic space groups,230,230,indexed,none,"symmetry comparator, not historical identity",computational
