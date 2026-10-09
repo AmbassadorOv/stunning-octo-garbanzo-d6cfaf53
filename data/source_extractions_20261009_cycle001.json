@@ -1,0 +1,590 @@
+{
+  "schema_version": "1.0",
+  "cycle_id": "NTM-CODEX-2026-10-09-001",
+  "status": "CANDIDATES_FOUND",
+  "source_corpus_scanned": [
+    {
+      "file": "Pasted markdown.md",
+      "source_header": "עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "scope": "one connected Library source; not the entire Library"
+    }
+  ],
+  "immutability": {
+    "append_only_new_file": true,
+    "existing_configurations_modified": false,
+    "existing_ids_reused": false,
+    "prior_registry_files_modified": false
+  },
+  "passes": [
+    {
+      "pass_id": "P1",
+      "operation": "explicit literal extraction",
+      "new_ids": [
+        "SRC-20261009-001",
+        "SRC-20261009-002",
+        "SRC-20261009-003",
+        "SRC-20261009-004",
+        "SRC-20261009-005",
+        "SRC-20261009-006",
+        "SRC-20261009-007",
+        "SRC-20261009-008",
+        "SRC-20261009-009",
+        "SRC-20261009-010",
+        "SRC-20261009-011",
+        "SRC-20261009-012",
+        "SRC-20261009-013",
+        "SRC-20261009-014",
+        "SRC-20261009-015",
+        "SRC-20261009-016",
+        "SRC-20261009-017",
+        "SRC-20261009-018",
+        "SRC-20261009-019",
+        "SRC-20261009-020"
+      ],
+      "new_count": 20
+    },
+    {
+      "pass_id": "P2",
+      "operation": "source-explicit finer-granularity decomposition",
+      "new_ids": [
+        "SRC-20261009-021",
+        "SRC-20261009-022",
+        "SRC-20261009-023",
+        "SRC-20261009-024",
+        "SRC-20261009-025",
+        "SRC-20261009-026",
+        "SRC-20261009-027",
+        "SRC-20261009-028"
+      ],
+      "new_count": 8
+    },
+    {
+      "pass_id": "P3",
+      "operation": "ID uniqueness, variant, and context validation",
+      "new_ids": [],
+      "new_count": 0
+    }
+  ],
+  "configurations": [
+    {
+      "config_id": "SRC-20261009-001",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "אבי\"ע",
+      "normalized_letters": "אביע",
+      "ordering": "acronym; source order",
+      "orientation": "unspecified",
+      "context": "Opening paragraph names the four worlds by this acronym",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-002",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "י' אצילות ה' בריאה ו' יצירה ה' עשיה",
+      "normalized_letters": "יהוה",
+      "ordering": "י→אצילות; ה→בריאה; ו→יצירה; ה→עשיה",
+      "orientation": "unspecified",
+      "context": "Passage explicitly maps the four letters of הוי״ה to the four worlds",
+      "extraction_operation": "LETTER_TO_WORLD_MAPPING",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-003",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "ם' סתומה",
+      "normalized_letters": "ם",
+      "ordering": "single glyph",
+      "orientation": "closed/final mem form; direction unspecified",
+      "context": "Passage describes the closed mem form",
+      "extraction_operation": "LETTER_FORM",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-004",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "אכתריאל יה יהוה צבאות",
+      "normalized_letters": "אכתריאל יה יהוה צבאות",
+      "ordering": "four tokens in source order",
+      "orientation": "unspecified",
+      "context": "Ordered sequence of names in the tools-of-Beriah passage",
+      "extraction_operation": "ORDERED_NAME_SEQUENCE",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-005",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "יאהלו",
+      "normalized_letters": "יאהלו",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Explicitly introduced as a name in the closing passage",
+      "extraction_operation": "EXPLICIT_NAME",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-006",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "מטטרו\"ן",
+      "normalized_letters": "מטטרון",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Named as the body of Zeir Anpin of Beriah",
+      "extraction_operation": "EXPLICIT_NAME",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-007",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "סנדלפו\"ן",
+      "normalized_letters": "סנדלפון",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Named as the body of Nukva of Zeir Anpin of Beriah",
+      "extraction_operation": "EXPLICIT_NAME",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-008",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "נר\"ן",
+      "normalized_letters": "נרן",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Acronym for three aspects of the essence of Beriah",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-009",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "הדרינא\"ל",
+      "normalized_letters": "הדרינאל",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Listed as the neshamah of Abba and Imma of Asiyah",
+      "extraction_operation": "EXPLICIT_NAME",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-010",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "קמואל",
+      "normalized_letters": "קמואל",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Listed as a name in the Asiyah mapping",
+      "extraction_operation": "EXPLICIT_NAME",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-011",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "קומילאל",
+      "normalized_letters": "קומילאל",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Explicit alternative reading marked נ״א after קמואל",
+      "extraction_operation": "VARIANT_READING",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      },
+      "variant_of": "SRC-20261009-010",
+      "variant_marker": "נ״א"
+    },
+    {
+      "config_id": "SRC-20261009-012",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "מלכיאל",
+      "normalized_letters": "מלכיאל",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Listed in the Asiyah mapping",
+      "extraction_operation": "EXPLICIT_NAME",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-013",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "צדקיאל",
+      "normalized_letters": "צדקיאל",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Listed as a nefesh name in the Asiyah mapping",
+      "extraction_operation": "EXPLICIT_NAME",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-014",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "עטריאל",
+      "normalized_letters": "עטריאל",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Listed as the nefesh of Nukva of Zeir Anpin of Asiyah",
+      "extraction_operation": "EXPLICIT_NAME",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-015",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "טטרון",
+      "normalized_letters": "טטרון",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Named as king in the world of Yetzirah",
+      "extraction_operation": "EXPLICIT_NAME",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-016",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "שמועא\"ל",
+      "normalized_letters": "שמועאל",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Named above the Yetzirah figure in the passage",
+      "extraction_operation": "EXPLICIT_NAME",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-017",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "ענפיאל",
+      "normalized_letters": "ענפיאל",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Named in the same explicit sequence as שמועאל and יהואל",
+      "extraction_operation": "EXPLICIT_NAME",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-018",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "יהואל",
+      "normalized_letters": "יהואל",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Named in the same explicit sequence as שמועאל and ענפיאל",
+      "extraction_operation": "EXPLICIT_NAME",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      }
+    },
+    {
+      "config_id": "SRC-20261009-019",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "מיטטרו\"ן",
+      "normalized_letters": "מיטטרון",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Explicit spelling variant marked בתוס׳ יוד",
+      "extraction_operation": "SPELLING_VARIANT",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      },
+      "variant_of": "SRC-20261009-006",
+      "variant_marker": "בתוס׳ יוד"
+    },
+    {
+      "config_id": "SRC-20261009-020",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "אכתריא\"ל",
+      "normalized_letters": "אכתריאל",
+      "ordering": "source order",
+      "orientation": "unspecified",
+      "context": "Alternate punctuation/spelling of אכתריאל in another passage",
+      "extraction_operation": "SPELLING_VARIANT",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      },
+      "variant_of": "SRC-20261009-004",
+      "variant_marker": "alternate spelling/punctuation"
+    },
+    {
+      "config_id": "SRC-20261009-021",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "אכתריאל",
+      "normalized_letters": "אכתריאל",
+      "ordering": "component 1 of parent sequence",
+      "orientation": "unspecified",
+      "context": "Component extracted from SRC-20261009-004",
+      "extraction_operation": "COMPOSITE_COMPONENT",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      },
+      "parent_config_id": "SRC-20261009-004"
+    },
+    {
+      "config_id": "SRC-20261009-022",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "יה",
+      "normalized_letters": "יה",
+      "ordering": "component 2 of parent sequence",
+      "orientation": "unspecified",
+      "context": "Component extracted from SRC-20261009-004",
+      "extraction_operation": "COMPOSITE_COMPONENT",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      },
+      "parent_config_id": "SRC-20261009-004"
+    },
+    {
+      "config_id": "SRC-20261009-023",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "יהוה",
+      "normalized_letters": "יהוה",
+      "ordering": "component 3 of parent sequence",
+      "orientation": "unspecified",
+      "context": "Component extracted from SRC-20261009-004; distinct context from SRC-20261009-002",
+      "extraction_operation": "COMPOSITE_COMPONENT",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      },
+      "parent_config_id": "SRC-20261009-004"
+    },
+    {
+      "config_id": "SRC-20261009-024",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "צבאות",
+      "normalized_letters": "צבאות",
+      "ordering": "component 4 of parent sequence",
+      "orientation": "unspecified",
+      "context": "Component extracted from SRC-20261009-004",
+      "extraction_operation": "COMPOSITE_COMPONENT",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      },
+      "parent_config_id": "SRC-20261009-004"
+    },
+    {
+      "config_id": "SRC-20261009-025",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "י'",
+      "normalized_letters": "י",
+      "ordering": "single-letter mapping component",
+      "orientation": "unspecified",
+      "context": "Mapped to אצילות in parent SRC-20261009-002",
+      "extraction_operation": "MAPPING_COMPONENT",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      },
+      "parent_config_id": "SRC-20261009-002",
+      "mapping_target": "אצילות"
+    },
+    {
+      "config_id": "SRC-20261009-026",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "ה'",
+      "normalized_letters": "ה",
+      "ordering": "single-letter mapping component",
+      "orientation": "unspecified",
+      "context": "Mapped to בריאה in parent SRC-20261009-002",
+      "extraction_operation": "MAPPING_COMPONENT",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      },
+      "parent_config_id": "SRC-20261009-002",
+      "mapping_target": "בריאה"
+    },
+    {
+      "config_id": "SRC-20261009-027",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "ו'",
+      "normalized_letters": "ו",
+      "ordering": "single-letter mapping component",
+      "orientation": "unspecified",
+      "context": "Mapped to יצירה in parent SRC-20261009-002",
+      "extraction_operation": "MAPPING_COMPONENT",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      },
+      "parent_config_id": "SRC-20261009-002",
+      "mapping_target": "יצירה"
+    },
+    {
+      "config_id": "SRC-20261009-028",
+      "source": "Pasted markdown.md; header identifies the text as עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "exact_sequence": "ה'",
+      "normalized_letters": "ה",
+      "ordering": "single-letter mapping component",
+      "orientation": "unspecified",
+      "context": "Mapped to עשיה in parent SRC-20261009-002; distinct mapping from SRC-20261009-026",
+      "extraction_operation": "MAPPING_COMPONENT",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.7
+      },
+      "parent_config_id": "SRC-20261009-002",
+      "mapping_target": "עשיה"
+    }
+  ],
+  "structural_comparisons": [
+    {
+      "a": "SRC-20261009-001",
+      "b": "SRC-20261009-002",
+      "classification": "FOUR_SLOT_DOMAIN_PARALLEL_CANDIDATE",
+      "basis": "The source names the four worlds as אבי״ע and separately maps four letters of הוי״ה to the four worlds; this is a contextual parallel, not identity."
+    },
+    {
+      "a": "SRC-20261009-002",
+      "b": "SRC-20261009-023",
+      "classification": "SAME_LETTER_SEQUENCE_DIFFERENT_CONTEXT",
+      "basis": "יהוה occurs in the world-mapping context and as a component of the ordered name sequence; IDs remain distinct."
+    },
+    {
+      "a": "SRC-20261009-004",
+      "b": [
+        "SRC-20261009-021",
+        "SRC-20261009-022",
+        "SRC-20261009-023",
+        "SRC-20261009-024"
+      ],
+      "classification": "ORDERED_COMPOSITION_DECOMPOSITION",
+      "basis": "Four components are retained in the exact source order."
+    },
+    {
+      "a": "SRC-20261009-006",
+      "b": "SRC-20261009-019",
+      "classification": "EXPLICIT_SPELLING_VARIANT",
+      "basis": "Source marks מיטטרו״ן as בתוס׳ יוד; both records remain separate."
+    },
+    {
+      "a": "SRC-20261009-010",
+      "b": "SRC-20261009-011",
+      "classification": "EXPLICIT_VARIANT_READING",
+      "basis": "Source gives קמואל with alternative reading קומילאל; both records remain separate."
+    },
+    {
+      "a": "SRC-20261009-026",
+      "b": "SRC-20261009-028",
+      "classification": "SAME_GLYPH_DIFFERENT_MAPPING_CONTEXT",
+      "basis": "ה maps to בריאה in one record and עשיה in another; contexts are preserved separately."
+    }
+  ],
+  "delta_summary": {
+    "pass1_new_ids": 20,
+    "pass2_new_ids": 8,
+    "pass3_new_ids": 0,
+    "total_new_ids": 28,
+    "old_configurations_modified": 0,
+    "old_ids_reused": 0,
+    "finer_granularity_candidates": 8,
+    "self_similar_fractal_structure": "not established; only explicit decomposition is supported",
+    "global_corpus_exhausted": false
+  }
+}
