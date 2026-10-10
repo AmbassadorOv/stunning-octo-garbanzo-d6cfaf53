@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "cycle_id": "NTM-CODEX-2026-10-10-003",
+  "previous_cycle": "NTM-CODEX-2026-10-10-002",
+  "status": "CANDIDATES_FOUND",
+  "source_corpus_scanned": [
+    {
+      "file": "Pasted markdown.md",
+      "source_header": "עץ חיים/שער מז (הכל) – ויקיטקסט",
+      "scope": "third pass: a limited set of literal ordered phrases; attribution not independently verified"
+    }
+  ],
+  "immutability": {
+    "append_only_new_file": true,
+    "existing_configurations_modified": false,
+    "existing_ids_reused": false,
+    "prior_cycle_manifests_modified": false
+  },
+  "passes": [
+    {
+      "pass_id": "P1",
+      "operation": "explicit phrase-sequence extraction",
+      "new_ids": [
+        "SRC-20261010-048",
+        "SRC-20261010-049",
+        "SRC-20261010-050",
+        "SRC-20261010-051",
+        "SRC-20261010-052",
+        "SRC-20261010-053"
+      ],
+      "new_count": 6
+    },
+    {
+      "pass_id": "P2",
+      "operation": "post-extraction contextual structural comparison",
+      "new_ids": [],
+      "new_count": 0
+    },
+    {
+      "pass_id": "P3",
+      "operation": "source-literal and ID validation",
+      "new_ids": [],
+      "new_count": 0
+    }
+  ],
+  "configurations": [
+    {
+      "config_id": "SRC-20261010-048",
+      "source": "Pasted markdown.md; header identifies עץ חיים/שער מז (הכל) – ויקיטקסט; attribution not independently verified.",
+      "source_file": "Pasted markdown.md",
+      "source_line": 1,
+      "exact_sequence": "ד' עולמות אבי\"ע",
+      "normalized_letters": "ד עולמות אביע",
+      "ordering": "exact source order",
+      "orientation": "linear textual order; no geometric orientation asserted",
+      "context": "Opening passage's four-world formulation",
+      "extraction_operation": "EXPLICIT_PHRASE_SEQUENCE",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.6
+      }
+    },
+    {
+      "config_id": "SRC-20261010-049",
+      "source": "Pasted markdown.md; header identifies עץ חיים/שער מז (הכל) – ויקיטקסט; attribution not independently verified.",
+      "source_file": "Pasted markdown.md",
+      "source_line": 15,
+      "exact_sequence": "ד' אותיות הוי\"ה",
+      "normalized_letters": "ד אותיות הויה",
+      "ordering": "exact source order",
+      "orientation": "linear textual order; no geometric orientation asserted",
+      "context": "Four-letter formulation used in the world-mapping discussion",
+      "extraction_operation": "EXPLICIT_PHRASE_SEQUENCE",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.6
+      }
+    },
+    {
+      "config_id": "SRC-20261010-050",
+      "source": "Pasted markdown.md; header identifies עץ חיים/שער מז (הכל) – ויקיטקסט; attribution not independently verified.",
+      "source_file": "Pasted markdown.md",
+      "source_line": 15,
+      "exact_sequence": "כולם בחכמה עשית",
+      "normalized_letters": "כולם בחכמה עשית",
+      "ordering": "exact source order",
+      "orientation": "linear textual order; no geometric orientation asserted",
+      "context": "Quoted in the explanation of the Chokhmah transmission layer",
+      "extraction_operation": "EXPLICIT_QUOTED_SEQUENCE",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.6
+      }
+    },
+    {
+      "config_id": "SRC-20261010-051",
+      "source": "Pasted markdown.md; header identifies עץ חיים/שער מז (הכל) – ויקיטקסט; attribution not independently verified.",
+      "source_file": "Pasted markdown.md",
+      "source_line": 15,
+      "exact_sequence": "איהו וגרמוי חד בהון",
+      "normalized_letters": "איהו וגרמוי חד בהון",
+      "ordering": "exact source order",
+      "orientation": "linear textual order; no geometric orientation asserted",
+      "context": "Formula used to distinguish Atzilut from Beriah",
+      "extraction_operation": "EXPLICIT_QUOTED_SEQUENCE",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.6
+      }
+    },
+    {
+      "config_id": "SRC-20261010-052",
+      "source": "Pasted markdown.md; header identifies עץ חיים/שער מז (הכל) – ויקיטקסט; attribution not independently verified.",
+      "source_file": "Pasted markdown.md",
+      "source_line": 15,
+      "exact_sequence": "מחשבה רעיתא דלבא קלא ודבורא",
+      "normalized_letters": "מחשבה רעיתא דלבא קלא ודבורא",
+      "ordering": "exact source order",
+      "orientation": "linear textual order; no geometric orientation asserted",
+      "context": "Ordered phrase cited in the thought/voice/speech discussion",
+      "extraction_operation": "EXPLICIT_ORDERED_SEQUENCE",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.6
+      }
+    },
+    {
+      "config_id": "SRC-20261010-053",
+      "source": "Pasted markdown.md; header identifies עץ חיים/שער מז (הכל) – ויקיטקסט; attribution not independently verified.",
+      "source_file": "Pasted markdown.md",
+      "source_line": 17,
+      "exact_sequence": "אמא עלאה מקננא בכורסייא",
+      "normalized_letters": "אמא עלאה מקננא בכורסייא",
+      "ordering": "exact source order",
+      "orientation": "linear textual order; no geometric orientation asserted",
+      "context": "Phrase relating Imma Ila'ah to the Throne/Beriah",
+      "extraction_operation": "EXPLICIT_PHRASE_SEQUENCE",
+      "provenance_status": "literal present in connected file; header attribution not independently verified",
+      "confidence": {
+        "literal_extraction": 0.99,
+        "source_attribution": 0.8,
+        "structural_interpretation": 0.6
+      }
+    }
+  ],
+  "structural_comparisons": [
+    {
+      "a": "SRC-20261009-001",
+      "b": "SRC-20261010-048",
+      "classification": "ACRONYM_IN_PHRASE_CONTEXT",
+      "basis": "The new phrase explicitly frames אבי״ע as the four-world sequence; phrase and acronym remain distinct."
+    },
+    {
+      "a": "SRC-20261009-002",
+      "b": "SRC-20261010-049",
+      "classification": "MAPPING_SUMMARY_RELATION",
+      "basis": "The earlier record maps the letters to worlds; the new record captures the phrase-level reference to four letters of הוי״ה."
+    },
+    {
+      "a": "SRC-20261010-050",
+      "b": "SRC-20261010-051",
+      "classification": "SOURCE_DISTINCT_FORMULAS",
+      "basis": "Both are literal formulas in the same passage but have different local contexts; no equivalence is asserted."
+    }
+  ],
+  "delta_summary": {
+    "previous_cycle_new_ids": 19,
+    "this_cycle_new_ids": 6,
+    "cumulative_ids_in_cycles_001_to_003": 53,
+    "old_configurations_modified": 0,
+    "old_ids_reused": 0,
+    "structural_comparisons": 3,
+    "finer_granularity_candidates": 2,
+    "self_similar_fractal_structure": "not established; source-grounded nesting/contextual relations are candidates only",
+    "global_corpus_exhausted": false
+  },
+  "method_notes": [
+    "Cycle 001 and cycle 002 manifests were not edited.",
+    "Confidence is an analyst estimate, not a calibrated probability.",
+    "Structural comparison followed extraction; no numeric-similarity inference was used."
+  ]
+}
