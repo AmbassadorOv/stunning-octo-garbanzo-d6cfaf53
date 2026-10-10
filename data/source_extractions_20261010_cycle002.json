@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.0",
+  "cycle_id": "NTM-CODEX-2026-10-10-002",
+  "previous_cycle": "NTM-CODEX-2026-10-09-001",
+  "status": "CANDIDATES_FOUND",
+  "source": "Pasted markdown.md — header: עץ חיים/שער מז (הכל) – ויקיטקסט; header attribution not independently verified",
+  "append_only": true,
+  "configurations": [
+    {
+      "config_id": "SRC-20261010-029",
+      "exact_sequence": "א\"ס",
+      "ordering": "source order; acronym",
+      "orientation": "unspecified",
+      "context": "אור א״ס; line 15",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-030",
+      "exact_sequence": "בי\"ע",
+      "ordering": "source order; acronym",
+      "orientation": "unspecified",
+      "context": "lower three-world domain; line 27",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-031",
+      "exact_sequence": "או\"א",
+      "ordering": "source order; acronym",
+      "orientation": "unspecified",
+      "context": "zivug of Abba and Imma; line 17",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-032",
+      "exact_sequence": "זו\"ן",
+      "ordering": "source order; acronym",
+      "orientation": "unspecified",
+      "context": "zivugim of Zeir Anpin and Nukva; line 25",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-033",
+      "exact_sequence": "א\"א",
+      "ordering": "source order; acronym",
+      "orientation": "unspecified",
+      "context": "Arich Anpin; line 17",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-034",
+      "exact_sequence": "ז\"א",
+      "ordering": "source order; acronym",
+      "orientation": "unspecified",
+      "context": "Zeir Anpin; line 15",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-035",
+      "exact_sequence": "ג\"ר",
+      "ordering": "source order; acronym",
+      "orientation": "unspecified",
+      "context": "the text states הג״ר הם כח״ב; line 17",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-036",
+      "exact_sequence": "ז\"ת",
+      "ordering": "source order; acronym",
+      "orientation": "unspecified",
+      "context": "contrasted with ג״ר דעתיק; line 22",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-037",
+      "exact_sequence": "ו\"ק",
+      "ordering": "source order; acronym",
+      "orientation": "unspecified",
+      "context": "Yetzirah/Asiyah discussion; line 27",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-038",
+      "exact_sequence": "ג\"ת",
+      "ordering": "source order; acronym",
+      "orientation": "unspecified",
+      "context": "ג״ת שלהם בז״א; line 22",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-039",
+      "exact_sequence": "פב\"פ",
+      "ordering": "source order; orientation code",
+      "orientation": "front-to-front code; expansion is normalized, not separately quoted here",
+      "context": "first zivug; line 25",
+      "extraction_operation": "EXPLICIT_ORIENTATION_CODE",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-040",
+      "exact_sequence": "אב\"א",
+      "ordering": "source order; orientation code",
+      "orientation": "back-to-back code; expansion is normalized, not separately quoted here",
+      "context": "second zivug; lines 25 and 27",
+      "extraction_operation": "EXPLICIT_ORIENTATION_CODE",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-041",
+      "exact_sequence": "ג' גו ג'",
+      "ordering": "source order; repeated three-within-three form",
+      "orientation": "unspecified",
+      "context": "Asiyah state; line 27",
+      "extraction_operation": "EXPLICIT_STRUCTURE_PHRASE",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-042",
+      "exact_sequence": "ישסו\"ת",
+      "ordering": "source order; acronym",
+      "orientation": "unspecified",
+      "context": "second form of the Abba-Imma configuration; line 15",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-043",
+      "exact_sequence": "כח\"ב",
+      "ordering": "source order; acronym",
+      "orientation": "unspecified",
+      "context": "explicitly related to ג״ר; line 17",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-044",
+      "exact_sequence": "נה\"י",
+      "ordering": "source order; acronym",
+      "orientation": "unspecified",
+      "context": "partzuf description; line 22",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-045",
+      "exact_sequence": "חג\"ת",
+      "ordering": "source order; acronym",
+      "orientation": "unspecified",
+      "context": "partzuf description; line 15",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-046",
+      "exact_sequence": "י\"ג תקונים",
+      "ordering": "source order; numeric-plus-term sequence",
+      "orientation": "linear textual order",
+      "context": "the passage states that Arich Anpin has י״ג תקונים; line 17",
+      "extraction_operation": "EXPLICIT_TECHNICAL_SEQUENCE",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    },
+    {
+      "config_id": "SRC-20261010-047",
+      "exact_sequence": "י\"ס",
+      "ordering": "source order; acronym",
+      "orientation": "unspecified",
+      "context": "י״ס דאצילות; line 15",
+      "extraction_operation": "EXPLICIT_ACRONYM",
+      "provenance_status": "literal present; header attribution not independently verified",
+      "confidence": 0.99
+    }
+  ],
+  "structural_comparisons": [
+    {
+      "a": "SRC-20261009-001",
+      "b": "SRC-20261010-030",
+      "classification": "NESTED_WORLD_DOMAIN_CANDIDATE",
+      "basis": "The source uses אבי״ע for four worlds and בי״ע for the lower three-world domain; relation is contextual, not identity."
+    },
+    {
+      "a": "SRC-20261010-031",
+      "b": "SRC-20261010-032",
+      "classification": "DISTINCT_PAIRED_ENTITY_CLASSES",
+      "basis": "או״א and זו״ן are separate paired designations in the same discussion."
+    },
+    {
+      "a": "SRC-20261010-039",
+      "b": "SRC-20261010-040",
+      "classification": "OPPOSITE_ORIENTATION_CODES",
+      "basis": "The source labels the first zivug פב״פ and the second אב״א."
+    },
+    {
+      "a": "SRC-20261010-035",
+      "b": "SRC-20261010-043",
+      "classification": "EXPLICIT_CATEGORY_ACRONYM_RELATION",
+      "basis": "The source explicitly states הג״ר הם כח״ב."
+    },
+    {
+      "a": "SRC-20261010-044",
+      "b": "SRC-20261010-045",
+      "classification": "PARALLEL_ACRONYM_SHAPES_DISTINCT_FUNCTIONS",
+      "basis": "Both are separate technical triplet designations in the partzuf discussion."
+    }
+  ],
+  "delta_summary": {
+    "previous_cycle_new_ids": 28,
+    "this_cycle_new_ids": 19,
+    "cumulative_ids": 47,
+    "old_configurations_modified": 0,
+    "old_ids_reused": 0,
+    "finer_granularity_candidates": 5,
+    "self_similar_fractal_structure": "not established",
+    "global_corpus_exhausted": false
+  },
+  "method_note": "Confidence is an analyst estimate, not a calibrated probability. IDs from cycle 001 remain untouched."
+}
