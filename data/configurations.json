@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "base_sets": {
+    "hebrew_letters": 22,
+    "unordered_pairs": 231,
+    "ordered_pairs_no_repetition": 462,
+    "crystallographic_space_groups": 230,
+    "days_cycle": 360,
+    "ab_value": 72,
+    "rphach_value": 288
+  },
+  "rphach_paths": [
+    {"id":"C1","name":"four_fillings","inputs":["AB","SAG","MA","BAN"],"block_size":72,"blocks":4,"operation":"4*72","output":288,"source_status":"documented"},
+    {"id":"C2","name":"72_words_plus_216_letters","inputs":["AB"],"components":{"words":72,"letters":216},"operation":"72+216","output":288,"source_status":"documented"},
+    {"id":"C3","name":"four_partzufim_ab","inputs":["four_partzufim"],"block_size":72,"blocks":4,"operation":"4*72","output":288,"source_status":"documented"},
+    {"id":"C4","name":"orientation_split","inputs":["panim","achor"],"operation":"source_specific_partition","output":288,"source_status":"requires_source_level_annotation"}
+  ],
+  "combination_spaces": {
+    "PAIR_UNORDERED_231":{"n":22,"k":2,"formula":"C(22,2)","count":231},
+    "PAIR_ORDERED_462":{"n":22,"k":2,"formula":"22*21","count":462}
+  },
+  "comparison_policy": {
+    "numeric_equality_is_not_structural_equality": true,
+    "source_provenance_required": true,
+    "crystal_mapping_is_analogical_until_validated": true
+  }
+}

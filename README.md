@@ -1,104 +1,46 @@
-# World-Party-Federation-Branches-managers
+# RPHACH-72 Combination Engine
 
-Here’s an interdisciplinary, computational science project like  Unity Theorem, quantum tunneling, and sonographic quantum linguistics theory. This structure is designed for clarity, collaboration, and ease of publication (preprint, journal, or code-based).
+מנוע מחקר חישובי לבדיקת צירופי אותיות, רפ"ח ניצוצין, ע"ב שמות, קונפיגורציות סימטריה וחתימות קריסטלוגרפיות.
 
+## שתי דרכי הפקה של 288 שכבר מופרדות במודל
 
+1. ארבעה בלוקים של 72: ע"ב / ס"ג / מ"ה / ב"ן.
+2. 72 תיבות + 216 אותיות = 288.
 
+לכן 288 = 4×72 הוא קשר מתועד במסלול אחד, אבל אין להסיק שכל הופעה של 288 נוצרת באותה פעולה.
 
----
+## שכבות
 
-## 📁 Recommended GitHub Repository Template
+- Letter: 22 אותיות.
+- Pair: 231 זוגות לא-מסודרים / 462 זוגות מסודרים.
+- AB: 72.
+- RPHACH: 288.
+- Crystallographic: 230 קבוצות מרחב, כשכבת השוואת סימטריה חישובית.
+- Cycle: 360.
+- Provenance: מקור + פעולה + סדר + כיוון + קונפיגורציה.
 
-```
-Unity-Theorem-Quantum-Linguistics/
-├── README.md
-├── docs/
-│   ├── theory_overview.md
-│   ├── section8_quantum_ai_architecture.md
-│   ├── section9_sonographic_linguistics.md
-│   └── diagrams/
-│       ├── 126d_singularity.png
-│       └── toroidal_folds.svg
-├── src/
-│   ├── sonographic_simulation/
-│   │   ├── simulate_sonography.py
-│   │   └── __init__.py
-│   ├── hipedots_hyperdunks/
-│   │   ├── blueprint_particle.py
-│   │   └── tunneling_engine.py
-│   └── utils/
-│       └── helpers.py
-├── notebooks/
-│   ├── simulation_demo.ipynb
-│   └── sonographic_shapes_analysis.ipynb
-├── tests/
-│   ├── test_sonography.py
-│   └── test_tunneling.py
-├── data/
-│   ├── sample_sonograms/
-│   │   └── aleph.wav
-│   └── results/
-│       └── simulation_output.csv
-├── LICENSE
-├── .gitignore
-├── requirements.txt
-├── environment.yml
-├── CITATION.cff
-└── references.bib
-```
+## מנגנון ההשוואה
 
----
+source → input → operation → ordering → orientation → output → symmetry signature
 
-## 📄 README.md Template
+סטטוסים:
+- NUMERIC_MATCH
+- STRUCTURAL_MATCH
+- ISOMORPHIC_CANDIDATE
+- SOURCE_DISTINCT
+- UNRESOLVED
 
-```markdown
-# Unity Theorem & Quantum Linguistics
+## Spreadsheet
 
-A unified framework integrating quantum information, consciousness, symbolic linguistics (sonographic Hebrew letter modeling), and AI-driven simulation using the HipeDots-Hyperdunks architecture.
+data/configuration_matrix.csv הוא בסיס ל-Excel/Google Sheets.
 
-## Features
+docs/excel_engine_schema.md מפרט את העמודות והנוסחאות.
 
-- **Quantum-AI Architecture**: HipeDots-Hyperdunks simulation engine for ontological tunneling.
-- **Sonographic Linguistics**: Computational modeling of ancient letter shapes and quantum sound patterns.
-- **Theory & Code**: All sections of the Unity Theorem, with computational blueprints and simulation notebooks.
+## מקורות שנבדקו
 
-## Repository Structure
+- עץ חיים, שער י"ח — רפ"ח/ש"ך ניצוצין.
+- עץ חיים, שער י"ט — ד' שמות ע"ב ס"ג מ"ה ב"ן.
+- תלמוד עשר הספירות, חלק י' — 72 תיבות + 216 אותיות.
+- קל"ח פתחי חכמה, פתח נ"ז — רפ"ח כניצוצות.
 
-- `docs/` — Theory sections, technical documentation, and diagrams.
-- `src/` — Source code for simulation engines and modeling.
-- `notebooks/` — Jupyter notebooks demonstrating core algorithms and results.
-- `data/` — Sample sonograms and simulation results.
-- `tests/` — Unit tests for core modules.
-- `references.bib` — References and citations.
-- `requirements.txt` / `environment.yml` — Dependencies.
-
-## Getting Started
-
-1. Clone the repository.
-2. Install dependencies:  
-   `pip install -r requirements.txt`  
-   or  
-   `conda env create -f environment.yml`
-3. Run sample notebooks in `notebooks/` to explore the theory and code.
-
-## Citation
-
-If you use this work, please cite via `CITATION.cff` or `references.bib`.
-
-## License
-
-[MIT License](LICENSE)
-```
-
----
-
-## 💡 Tips
-
-- **Use `docs/` for all theory, design, and diagrams.**
-- **Keep code modular in `src/` for simulation, modeling, and utilities.**
-- **Provide demo notebooks for reproducibility.**
-- **Add a `CITATION.cff` for easy citation in scholarly work.**
-- **Include a `references.bib` for all academic references.**
-
----
-
+הקוד שומר הפרדה בין שוויון מספרי לבין זהות מבנית או היסטורית.

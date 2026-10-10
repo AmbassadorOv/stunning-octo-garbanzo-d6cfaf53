@@ -1,0 +1,8 @@
+config_id,input_space,operation,output,orientation,crystal_mapping,status
+C1,AB-SAG-MA-BAN,4*72,288,multi,optional,documented
+C2,AB words+letters,72+216,288,unspecified,optional,documented
+C3,four-partzufim,4*72,288,multi,optional,documented
+C4,panim-achor,source-specific,288,split,optional,requires-source
+L1,22 letters,C(22,2),231,none,230-group-test,mathematical
+L2,22 letters,22*21,462,none,230-group-test,mathematical
+T1,calendar,cycle,360,cyclic,230-group-test,independent-axis
