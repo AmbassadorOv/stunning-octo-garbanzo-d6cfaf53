@@ -1,0 +1,216 @@
+{
+  "schema": "WANGA-TNRL-COMPILER-CONTEXT",
+  "version": "0.3",
+  "created_at": "2026-10-19",
+  "purpose": "Persistent project handoff, provenance, and iteration control for the virtual compiler-processor sandbox.",
+  "architecture_contract": {
+    "identity": "The system is a compiler that is itself a processor, not a conventional CPU running a compiler.",
+    "substrate": "Two coupled neural nano-processor lines: binary and ternary.",
+    "programs_run_by_fabric": [
+      {
+        "id": "P1",
+        "name": "Source collection and organization",
+        "function": "Collect prior material, preserve source order, attach provenance."
+      },
+      {
+        "id": "P2",
+        "name": "Structured compilation / Mishnah-like canonicalization",
+        "function": "Compile source material into stable structured representations."
+      },
+      {
+        "id": "P3",
+        "name": "Interpretation",
+        "function": "Generate interpretations from canonical structures."
+      },
+      {
+        "id": "P4",
+        "name": "Interpretation and compilation rules",
+        "function": "Apply explicit rules for interpreting and compiling; include derivation methods such as middot where sourced."
+      },
+      {
+        "id": "P5",
+        "name": "Derivation and adjudication",
+        "function": "Model derivation of rulings and dispute-resolution rules; preserve competing outcomes and decision provenance."
+      }
+    ],
+    "scope_note": "These five programs are executed by the combined binary/ternary fabric; they are not five conventional CPU cores."
+  },
+  "virtual_fabric": {
+    "topology": [
+      21,
+      21,
+      21
+    ],
+    "sides": [
+      "ABA",
+      "IMMA"
+    ],
+    "polarities": [
+      "RECEPTORON",
+      "PHOSPHOTRON"
+    ],
+    "total_logical_units": 37044,
+    "reserved_control_units": 1044,
+    "active_computational_units": 36000,
+    "counts_status": "Design constants in simulation, not measured physical hardware.",
+    "open_question": "Define the semantic sub-allocation and purpose of the 1,044 reserved control units."
+  },
+  "ir_and_validation": {
+    "ir": "Recursive typed Fractal IR; non-atomic nodes may contain nested sub-IR.",
+    "gate_before_execution": [
+      "schema/type validation",
+      "legal parent-child transitions",
+      "rule applicability",
+      "derivation validity",
+      "source provenance",
+      "bounded recursion",
+      "executable terminal nodes"
+    ],
+    "provenance_rule": "Never overwrite prior configuration. Preserve C001/original and append C002+ variants with independent IDs, source, order, context, and change notes."
+  },
+  "existing_artifacts_reviewed": [
+    {
+      "name": "index.html",
+      "source": "ChatGPT Library, file_id file_000000006f5c8243b5f873b29475dd7f",
+      "role": "TNRL Compiler-Processor HTML/Canvas sandbox",
+      "status": "Reviewed source; not confirmed deployed/live."
+    },
+    {
+      "name": "tnrl_core.py",
+      "source": "ChatGPT Library, file_id file_000000005f1481f4b2f2cb02628886c3",
+      "role": "Deterministic Python virtual fabric and pulse runtime",
+      "status": "Reviewed source; execution tests not yet run in this step."
+    },
+    {
+      "name": "context_seed_v0.2.json",
+      "source": "ChatGPT Library, file_id file_000000008f048210b6a83f1e7114e293",
+      "role": "Prior handoff seed",
+      "status": "Preserve as prior version; this v0.3 is additive."
+    },
+    {
+      "name": "Nano-Node Architecture for Fractal IR + Neural-Core",
+      "source": "ChatGPT Library, file_id file_000000004fd0821088884580dd357d6d",
+      "role": "Detailed Nano-Node and Fractal IR architecture report",
+      "status": "Reviewed relevant sections."
+    },
+    {
+      "name": "GitHub multi-agent-orchestator README",
+      "url": "https://github.com/AmbassadorOv/multi-agent-orchestator/blob/main/README.md",
+      "role": "External baseline for multi-agent orchestration",
+      "status": "Read; baseline has classifier/retrieval/reasoning agents, distinct from the proposed five-program compiler."
+    },
+    {
+      "name": "GitHub stunning-octo-garbanzo-d6cfaf53 README",
+      "url": "https://github.com/AmbassadorOv/stunning-octo-garbanzo-d6cfaf53/blob/master/README.md",
+      "role": "External repository containing project template for quantum/sonographic simulation",
+      "status": "Read; README is a template and not evidence of a finished runnable implementation."
+    }
+  ],
+  "connectivity_orders": {
+    "previous_order_preserved": {
+      "id": "CONNECTIVITY_C001",
+      "status": "Prior conceptual order preserved from v0.2 and conversation",
+      "order": [
+        "P1 source collection/organization",
+        "P2 structured compilation/canonicalization",
+        "P3 interpretation",
+        "P4 interpretation and compilation rules",
+        "P5 derivation/adjudication"
+      ],
+      "note": "This is the original five-stage logical order; keep it unchanged for comparison."
+    },
+    "candidate_order_v002": {
+      "id": "CONNECTIVITY_C002",
+      "status": "Proposed test order; not accepted as replacement",
+      "order": [
+        "Input/source capture with immutable source IDs",
+        "Normalize into recursive Fractal IR without discarding original text",
+        "Formal Validator: schema, types, provenance, legal transitions",
+        "P2 canonical structure build",
+        "P3 interpretation branches",
+        "P4 rule application with explicit source-backed rules",
+        "P5 derivation and dispute-resolution evaluation",
+        "Emit result, competing alternatives, trace, and digest"
+      ],
+      "rationale": "Adds a validator gate and explicit provenance before interpretation. Retains all five program responsibilities and allows side-by-side comparison."
+    }
+  },
+  "known_issues": [
+    {
+      "id": "ISSUE-001",
+      "severity": "high",
+      "issue": "The HTML sandbox's processor visualization JavaScript appears to contain invalid identifiers/assignments in drawPipeline (e.g. iota/undefined y assignment); browser execution must be tested and repaired."
+    },
+    {
+      "id": "ISSUE-002",
+      "severity": "high",
+      "issue": "The HTML demo's browser-side pulse logic differs from tnrl_core.py: it does not implement the same cross-polarity and mirror routing. Results are not comparable until behavior is unified."
+    },
+    {
+      "id": "ISSUE-003",
+      "severity": "high",
+      "issue": "The five transforms in tnrl_core.py are toy numerical transforms; they do not yet implement real source compilation, Mishnah derivation, interpretation rules, or adjudication."
+    },
+    {
+      "id": "ISSUE-004",
+      "severity": "high",
+      "issue": "The 1,044 reserved units are assigned by deterministic ID order, not by a documented control-plane partition."
+    },
+    {
+      "id": "ISSUE-005",
+      "severity": "medium",
+      "issue": "Processor assignment is derived from coordinate arithmetic; no formally justified mapping from node positions to P1-P5 is documented."
+    },
+    {
+      "id": "ISSUE-006",
+      "severity": "medium",
+      "issue": "The count of 21 operators is specified, but operator signatures, preconditions, and output types require a formal schema."
+    },
+    {
+      "id": "ISSUE-007",
+      "severity": "medium",
+      "issue": "No benchmark harness, golden test cases, or baseline comparison against existing neural systems has yet been demonstrated."
+    },
+    {
+      "id": "ISSUE-008",
+      "severity": "medium",
+      "issue": "A live website URL for the sandbox has not been confirmed; the Library index.html is a source artifact, not proof of deployment."
+    },
+    {
+      "id": "ISSUE-009",
+      "severity": "medium",
+      "issue": "WANGA integration and Chrome Canary/CDP inspection are planned, not completed."
+    },
+    {
+      "id": "ISSUE-010",
+      "severity": "medium",
+      "issue": "External repository README templates must not be treated as runnable project code or scientific validation."
+    }
+  ],
+  "next_steps": [
+    "Keep C001 immutable; create C002 implementation branch/copy.",
+    "Run syntax checks and browser-console tests on index.html; fix visualization and ensure no global-variable errors.",
+    "Build a single shared execution contract so HTML and Python runtimes produce the same trace for the same seed.",
+    "Define formal JSON Schema for Fractal IR and 21 operators.",
+    "Implement source-preserving P1 and deterministic P2 before semantic P3-P5.",
+    "Add tests for each of the five programs, provenance preservation, nested IR, invalid transitions, and dispute branches.",
+    "Define a corpus of source-backed cases and expected outputs; only claim doctrinal correctness where a source and derivation are recorded.",
+    "Benchmark against a conventional LLM baseline and an existing multi-agent orchestrator using identical tasks, sources, and scoring.",
+    "Confirm the target WANGA website/endpoint and deploy location before claiming the sandbox is live.",
+    "At each 3-4 substantial milestones, append a new versioned context seed and changelog; never overwrite older seeds."
+  ],
+  "comparison_metrics": [
+    "source_retention_rate",
+    "IR_validation_pass_rate",
+    "rule_trace_completeness",
+    "derivation_reproducibility",
+    "adjudication_agreement_on_gold_cases",
+    "unsupported_claim_rate",
+    "latency_ms",
+    "memory_mb",
+    "active_nodes",
+    "trace_events",
+    "baseline_task_accuracy"
+  ],
+  "status": "Sandbox source reviewed; deployment and benchmark results not yet verified."
+}
